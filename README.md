@@ -47,7 +47,6 @@ This script will:
 The `updater.sh` script performs the following actions:
 
 * Creates a custom `iptables` chain named `RUGOV` (if it doesn't already exist)
-* Flushes all existing rules in the `RUGOV` chain
 * Fetches the latest blacklist from the specified URL
 * Adds rules to the `RUGOV` chain to block IP addresses listed in the blacklist
 * Saves the updated `iptables` rules
