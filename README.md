@@ -25,8 +25,8 @@ sudo apt-get install iptables iptables-persistent wget
 ## Installation
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-repository/iptables-rugov-block.git
-cd iptables-rugov-block
+git clone https://github.com/pvolkov/rugov-block.git
+cd rugov-block
 ```
 2. **Run the installation script:**
 ```
